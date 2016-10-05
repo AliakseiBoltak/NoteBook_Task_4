@@ -24,6 +24,6 @@ public class AddNewNoteTest {
 		addNoteRequest.setCommandName(COMMAND_NAME);
 		addNoteRequest.setNote("add");
 		Response addNoteResponse = CONTROLLER.doRequest(addNoteRequest);
-		Assert.assertFalse(NOTEBOOK.getNoteBook().getNotes().isEmpty());
+		Assert.assertTrue(NOTEBOOK.getNoteBook().getNotes().size()==1);
     }
 }
