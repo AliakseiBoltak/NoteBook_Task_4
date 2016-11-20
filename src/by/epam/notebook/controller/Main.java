@@ -8,7 +8,8 @@ import java.io.IOException;
 /**
  * Created by Aliaksei Boltak on 05/10/2016.
  * it`s a very good program . really
- * enjoy 
+ * relax and 
+ *enjoy
  */
 
 public class Main {
